@@ -37,7 +37,10 @@ next-env.d.ts
 
 # yarn berry
 .vscode/
-.yarn/
-# .pnp.cjs
-# .pnp.loader.mjs
-# .yarnrc.yml
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
