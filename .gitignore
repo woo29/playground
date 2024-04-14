@@ -38,6 +38,6 @@ next-env.d.ts
 # yarn berry
 .vscode/
 .yarn/
-.pnp.cjs
-.pnp.loader.mjs
-.yarnrc.yml
+# .pnp.cjs
+# .pnp.loader.mjs
+# .yarnrc.yml
